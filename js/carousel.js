@@ -27,5 +27,4 @@ document.getElementById('previous').addEventListener('click', function() {
         currentIndex = document.querySelectorAll('#carousel li').length;
     }
     showSlide(currentIndex);
-
 });
