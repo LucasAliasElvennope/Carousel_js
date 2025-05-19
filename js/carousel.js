@@ -1,6 +1,7 @@
 function showSlide(index) {
 
     const slides = document.querySelectorAll('#carousel li');
+
     for (let i = 0; i < slides.length; i++) {
         slides[i].style.display = 'none';
     }
@@ -8,6 +9,7 @@ function showSlide(index) {
 }
 
 let currentIndex = 0;
+
 showSlide(currentIndex);
 
 document.getElementById('next').addEventListener('click', function() {
@@ -19,3 +21,11 @@ document.getElementById('next').addEventListener('click', function() {
     showSlide(currentIndex);
 });
 
+document.getElementById('previous').addEventListener('click', function() {
+    currentIndex--;
+    
+    if (currentIndex < 0) {
+        currentIndex = document.querySelectorAll('#carousel li').length;
+    }
+    showSlide(currentIndex);
+});
