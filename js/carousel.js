@@ -7,3 +7,7 @@ function showSlide(index) {
 
     slides[index].style.display = 'block';
 }
+
+let currentIndex = 0;
+
+showSlide(currentIndex);
