@@ -1,6 +1,6 @@
-function showSlide(index) {
-    const slides = document.querySelectorAll('#carousel li');
+const slides = document.querySelectorAll('#carousel li');
 
+function showSlide(index) {
     for (let i = 0; i < slides.length; i++) {
         slides[i].style.display = 'none';
     }
@@ -17,15 +17,14 @@ const previousButton = document.querySelector('#previous');
 
 nextButton.onclick = function() {
     currentIndex++;
-    if (currentIndex >= slides.length)
+    if (currentIndex >= slides.length) {
+    }
     showSlide(currentIndex);
-}
 
 previousButton.onclick = function() {
     currentIndex--;
-    if (currentIndex < 0)
+    if (currentIndex < 0) {
+    }
     showSlide(currentIndex);
-}
-
     
     
