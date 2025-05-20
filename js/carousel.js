@@ -14,3 +14,11 @@ showSlide(currentIndex);
 
 const nextButton = document.querySelector('#next');
 const previousButton = document.querySelector('#previous');
+
+nextButton.onclick = function() {
+    currentIndex++;
+    showSlide(currentIndex);
+}
+
+    
+    
