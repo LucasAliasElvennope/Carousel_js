@@ -11,3 +11,6 @@ function showSlide(index) {
 let currentIndex = 0;
 
 showSlide(currentIndex);
+
+const nextButton = document.querySelector('#next');
+const previousButton = document.querySelector('#previous');
