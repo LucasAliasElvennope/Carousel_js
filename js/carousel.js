@@ -17,14 +17,17 @@ const previousButton = document.querySelector('#previous');
 
 nextButton.onclick = function() {
     currentIndex++;
-    if (currentIndex >= slides.length) {
+    if (currentIndex >= slides.length){
+        currentIndex = 0 
     }
     showSlide(currentIndex);
+}
 
 previousButton.onclick = function() {
     currentIndex--;
-    if (currentIndex < 0) {
+    if (currentIndex < 0){
+        currentIndex = -1 
     }
     showSlide(currentIndex);
-    
+}
     
