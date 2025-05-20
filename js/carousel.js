@@ -26,7 +26,7 @@ nextButton.onclick = function() {
 previousButton.onclick = function() {
     currentIndex--;
     if (currentIndex < 0){
-        currentIndex = -1 
+        currentIndex = slides.length - 1;
     }
     showSlide(currentIndex);
 }
