@@ -20,5 +20,10 @@ nextButton.onclick = function() {
     showSlide(currentIndex);
 }
 
+previousButton.onclick = function() {
+    currentIndex--;
+    showSlide(currentIndex);
+}
+
     
     
