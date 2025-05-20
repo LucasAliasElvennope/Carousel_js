@@ -78,7 +78,7 @@ main {
 }
 
 .images {
-  border-radius: 5px;
+  border-radius: 10px;
   width: 50%;
   height: auto;
   border: #333 solid 2px;
