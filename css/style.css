@@ -77,4 +77,11 @@ main {
   cursor: pointer;
 }
 
+.images {
+  border-radius: 5px;
+  width: 50%;
+  height: auto;
+  border: #333 solid 2px;
+}
+
 /*# sourceMappingURL=style.css.map */
