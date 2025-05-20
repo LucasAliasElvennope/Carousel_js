@@ -2,11 +2,8 @@
 
 ✨ Un carrousel d'images dynamique et réactif, entièrement construit avec JavaScript pur et stylisé avec la puissance de Sass. Idéal pour présenter vos visuels avec élégance !
 
----
+**Je suis ravi de vous présenter mon projet de carrousel d'images**, qui met en lumière mes compétences en développement web front-end, notamment en **JavaScript** pour l'interactivité et en **Sass** pour un stylisme élégant.
 
-**Je suis ravi de vous présenter mon projet de carrousel d'images**, une démonstration de mes compétences en développement web front-end, avec une emphase sur l'interactivité en **JavaScript** et un stylisme soigné grâce à **Sass**.
-
----
 
 ## 🎯 Aperçu du Projet
 
@@ -54,7 +51,6 @@ Suivez ces étapes simples pour faire tourner le carrousel sur votre machine loc
     Ouvrez simplement le fichier `index.html` (ou le nom de votre fichier HTML principal) dans votre navigateur web préféré.
     *(Vous pouvez aussi utiliser une extension comme "Live Server" pour Visual Studio Code pour un rechargement automatique.)*
 
----
 
 ## ✍️ Auteur
 
