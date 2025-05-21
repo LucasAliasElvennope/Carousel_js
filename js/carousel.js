@@ -1,3 +1,5 @@
+"use strict";
+
 const slides = document.querySelectorAll('#carousel li');
 
 function showSlide(index) {
